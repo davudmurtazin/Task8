@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 	xmlns="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.car-shop.com/cars"
+           xmlns:tns="http://www.car-shop.com/cars"
+           elementFormDefault="qualified">
+
+    <element name="cars">
+        <complexType>
+            <sequence>
+                <element name="car" type="tns:car" minOccurs="0" maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="car">
+        <sequence>
+            <element name="mark" type="string" />
+            <element name="title" type="string" />
+            <element name="number" type="string" />
+            <element name="color" type="string" />
+            <element name="price" type="string" />
+        </sequence>
+        <attribute name="type" type="string"/>
+    </complexType>
+</schema>

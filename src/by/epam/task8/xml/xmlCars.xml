@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.car-shop.com/cars"
+      xsi:schemaLocation="http://www.car-shop.com/cars  /by/epam/task8/schema/cars-schema.xsd">
+    <car type = "sport">
+        <mark>Mitsubishi</mark>
+        <title>Lancer</title>
+        <number>CA2145</number>
+        <color>red</color>
+        <price>21000</price>
+    </car>
+    <car type = "luxury">
+        <mark>Mersedes</mark>
+        <title>S500</title>
+        <number>NY4541</number>
+        <color>black</color>
+        <price>35000</price>
+    </car>
+    <car type = "economic">
+        <mark>Hyundai</mark>
+        <title>Solaris</title>
+        <number>CH5465</number>
+        <color>white</color>
+        <price>5000</price>
+    </car>
+    <car type = "Compact">
+        <mark>Mini</mark>
+        <title>Cooper</title>
+        <number>AP4587</number>
+        <color>grey</color>
+        <price>12100</price>
+    </car>
+</cars>
